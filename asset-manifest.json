@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Api-front/static/js/main.654717ad.chunk.js",
-    "main.js.map": "/Api-front/static/js/main.654717ad.chunk.js.map",
+    "main.js": "/Api-front/static/js/main.f5dacced.chunk.js",
+    "main.js.map": "/Api-front/static/js/main.f5dacced.chunk.js.map",
     "runtime-main.js": "/Api-front/static/js/runtime-main.a149c892.js",
     "runtime-main.js.map": "/Api-front/static/js/runtime-main.a149c892.js.map",
     "static/js/2.16e48056.chunk.js": "/Api-front/static/js/2.16e48056.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.a149c892.js",
     "static/js/2.16e48056.chunk.js",
-    "static/js/main.654717ad.chunk.js"
+    "static/js/main.f5dacced.chunk.js"
   ]
 }
