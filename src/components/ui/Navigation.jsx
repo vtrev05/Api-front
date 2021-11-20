@@ -141,7 +141,7 @@ const [isOpen, setIsOpen] = useState(false);
                 </Navul>
             </Nav>
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route exact path="/Api-front" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/collaborate" element={<Contribution />} />
                 <Route path="/documentation" element={<Documentation />} />
