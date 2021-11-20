@@ -23,15 +23,6 @@ width: 100%;
 z-index: 1;
 `;
 
-const LogoImage = styled.img`
-width: 100px;
-height: 100%;
-cursor: pointer;
-&:hover {
-    opacity: 50%;
-}
-`;
-
 const ContainerUtils = styled.div`
 display: flex;
 flex-wrap: wrap;
@@ -76,9 +67,6 @@ const Header = () => {
             <GlobalStyles />
             <HeaderDiv>
                 <ContainerLogo backgroundColor='light'>
-                    <a href="/Api-front">
-                        <LogoImage src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" alt="" />
-                    </a>
                     <ContainerUtils>
                         <Select value={context.locale} onChange={context.selectLanguage}>
                             <option value="es-ES">Español</option>

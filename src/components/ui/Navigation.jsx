@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from "react-intl";
-import { Link, Routes, Route, BrowserRouter as Router, HashRouter } from "react-router-dom";
+import { Link, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "../../pages/Home";
 import Documentation from "../../pages/Documentation";
 import Contact from "../../pages/Contact";
@@ -93,7 +93,14 @@ ${mobile} {
     
 }
 `
-
+const LogoImage = styled.img`
+width: 100px;
+height: 100%;
+cursor: pointer;
+&:hover {
+    opacity: 50%;
+}
+`;
 
 
 
@@ -108,6 +115,11 @@ const [isOpen, setIsOpen] = useState(false);
             setIsOpen(!isOpen)
             }><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></CheckBtn>
                 <Navul isOpen={isOpen}>
+                    <Navli>
+                        <Link to="/Api-front" style={{ "text-decoration": "none" }}>
+                            <LogoImage src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" alt="" />
+                        </Link>
+                    </Navli>
                     <Navli>
                         <Link to="/contact" style={{ "text-decoration": "none" }}>
                             <NavItem>
