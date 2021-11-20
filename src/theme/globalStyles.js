@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html,
+  /* html,
   body,
   div,
   span,
@@ -98,7 +98,7 @@ const GlobalStyles = createGlobalStyle`
       background-color: ${({ theme }) => theme.text};
       border-radius: 20px;
     }
-  }
+  } 
   body {
     margin: 0;
     padding: 0;
