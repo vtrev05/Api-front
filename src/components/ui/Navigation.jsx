@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from "react-intl";
-import { Link, Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Link, Routes, Route, BrowserRouter as Router, HashRouter } from "react-router-dom";
 import Home from "../../pages/Home";
 import Documentation from "../../pages/Documentation";
 import Contact from "../../pages/Contact";
@@ -101,7 +101,8 @@ const Navigation = () => {
 const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <Router>
+        <>
+        <HashRouter>
             <Nav>
             <CheckBtn onClick={() =>
             setIsOpen(!isOpen)
@@ -146,7 +147,8 @@ const [isOpen, setIsOpen] = useState(false);
                 <Route path="/documentation" element={<Documentation />} />
                 <Route path="/about" element={<About />} />
             </Routes>
-        </Router>
+        </HashRouter>
+        </>
     )
 }
 
