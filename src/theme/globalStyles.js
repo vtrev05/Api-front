@@ -69,9 +69,6 @@ const GlobalStyles = createGlobalStyle`
   main {
     display: block;
   }
-  body {
-    line-height: 1;
-  }
   ol,
   ul,
   li {
