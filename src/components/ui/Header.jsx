@@ -76,7 +76,7 @@ const Header = () => {
             <GlobalStyles />
             <HeaderDiv>
                 <ContainerLogo backgroundColor='light'>
-                    <a href="/">
+                    <a href="/Api-front">
                         <LogoImage src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" alt="" />
                     </a>
                     <ContainerUtils>
