@@ -121,8 +121,8 @@ const Navigation = () => {
 const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <Body>
         <HashRouter>
+            <Body>
             <Nav>
             <CheckBtn onClick={() =>
             setIsOpen(!isOpen)
@@ -172,8 +172,9 @@ const [isOpen, setIsOpen] = useState(false);
                 <Route path="/documentation" element={<Documentation />} />
                 <Route path="/about" element={<About />} />
             </Routes>
+            </Body>
         </HashRouter>
-        </Body>
+        
     )
 }
 
