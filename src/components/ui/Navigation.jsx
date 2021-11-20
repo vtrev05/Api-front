@@ -103,12 +103,25 @@ cursor: pointer;
 `;
 
 
+const Body = styled.body`
+    margin: 0;
+    padding: 0;
+    @import url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf");
+    background: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
+    font-family: 'formula1-display-regular';
+    transition: all 0.50s linear;
+    a, i {
+      color: ${({ theme }) => theme.text}; 
+    }`
+
+
 
 const Navigation = () => {
 const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <>
+        <Body>
         <HashRouter>
             <Nav>
             <CheckBtn onClick={() =>
@@ -160,7 +173,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <Route path="/about" element={<About />} />
             </Routes>
         </HashRouter>
-        </>
+        </Body>
     )
 }
 
