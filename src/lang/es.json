@@ -63,7 +63,8 @@
     "about.question.stuff": "¿Qué tecnologías hemos usado?",
     "about.response.stuff": "Hemos usado Node y MongoDB para la parte backend de la API. Todos los datos están en formato json y la parte Frontend está desarrollada en React nativo, junto con Styled Components y React Intl para los diferentes lenguajes.",
     "about.question.how": "¿Cómo puedes contribuir?",
-    "about.response.how": "Puedes ayudarnos manteniendo las colecciones vivas, para colaborar haz clik aquí: ",
+    "about.response.how": "Puedes ayudarnos manteniendo las colecciones vivas, para colaborar haz click aquí: ",
+    "about.response.how.link": "https://vtrev05.github.io/Api-front/#/collaborate",
     "about.question.copyright": "¿Tiene nuestra API copyright?",
     "about.response.copyright": "Formula 1 API está creada por un grupo de estudiantes de la escuela de Upgrade-Hub. Los datos e imágenes son utilizadas sin reclamo de propiedad y pertenecen a sus respectivos dueños.",
 

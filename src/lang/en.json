@@ -64,7 +64,7 @@
     "about.response.stuff": "We use Node and MongoDB to serve the API. All the data is formatted in json and the entire project is done with React native, Styled Components and React Intl in order to translate the project.",
     "about.question.how": "How can I contribute to the project?",
     "about.response.how": "You can help us to keep the collections alive. Also, you can collab with us here:",
-    "about.response.how.link": " http://localhost:3000/contribution",
+    "about.response.how.link": "https://vtrev05.github.io/Api-front/#/collaborate",
     "about.question.copyright": "Copyright?",
     "about.response.copyright": "Formula 1's API is created by student team for academy Upgrade. The data and images are used without claim of ownership and belong to their respective owners.",
 

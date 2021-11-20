@@ -210,7 +210,7 @@ const DocumentationLeftMenu = () => {
             <MenuContainer backgroundColor="light">
                 <MenuUl>
                     <MenuLi big="">
-                        <MenuA href="#intro" style={{ "text-decoration": "none" }} title="true" big="true">
+                        <MenuA href="intro" style={{ "text-decoration": "none" }} title="true" big="true">
                             <FormattedMessage
                                 id="docs.leftSideBar.intro"
                                 defaultMessage="Introduction" />
@@ -340,7 +340,7 @@ const DocumentationLeftMenu = () => {
                 </MenuUl>
             </MenuContainer>
             <ContentContainer>
-                <DivBodyH1 id="intro">
+                <DivBodyH1 name="intro" id="intro">
                 <BodyH1>
                     <FormattedMessage
                         id="docs.leftSideBar.intro"

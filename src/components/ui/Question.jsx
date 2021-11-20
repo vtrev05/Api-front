@@ -106,7 +106,9 @@ const Question = () => {
                 <FormattedMessage
                     id="about.response.how"
                     defaultMessage="You can help us to keep the collections alive. Also, you can collab with us here:"/>
-            <QuestionA color="light">
+            <QuestionA color="light"
+                target="_blank"
+                href="https://vtrev05.github.io/Api-front/#/collaborate">
                 <FormattedMessage
                     id="about.response.how.link"
                     defaultMessage="http://localhost:3000/contribution"/>
