@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Api-front/static/js/main.2036d139.chunk.js",
-    "main.js.map": "/Api-front/static/js/main.2036d139.chunk.js.map",
+    "main.js": "/Api-front/static/js/main.cbca7460.chunk.js",
+    "main.js.map": "/Api-front/static/js/main.cbca7460.chunk.js.map",
     "runtime-main.js": "/Api-front/static/js/runtime-main.a149c892.js",
     "runtime-main.js.map": "/Api-front/static/js/runtime-main.a149c892.js.map",
-    "static/js/2.a14e88df.chunk.js": "/Api-front/static/js/2.a14e88df.chunk.js",
-    "static/js/2.a14e88df.chunk.js.map": "/Api-front/static/js/2.a14e88df.chunk.js.map",
+    "static/js/2.7139c7f9.chunk.js": "/Api-front/static/js/2.7139c7f9.chunk.js",
+    "static/js/2.7139c7f9.chunk.js.map": "/Api-front/static/js/2.7139c7f9.chunk.js.map",
     "static/js/3.4275ce1e.chunk.js": "/Api-front/static/js/3.4275ce1e.chunk.js",
     "static/js/3.4275ce1e.chunk.js.map": "/Api-front/static/js/3.4275ce1e.chunk.js.map",
     "index.html": "/Api-front/index.html",
-    "static/js/2.a14e88df.chunk.js.LICENSE.txt": "/Api-front/static/js/2.a14e88df.chunk.js.LICENSE.txt"
+    "static/js/2.7139c7f9.chunk.js.LICENSE.txt": "/Api-front/static/js/2.7139c7f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a149c892.js",
-    "static/js/2.a14e88df.chunk.js",
-    "static/js/main.2036d139.chunk.js"
+    "static/js/2.7139c7f9.chunk.js",
+    "static/js/main.cbca7460.chunk.js"
   ]
 }
