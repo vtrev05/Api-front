@@ -5,7 +5,6 @@ import BannerHome from "../components/ui/BannerHome";
 const Home = () => {
     return (
         <>
-            <BannerHome></BannerHome>
             <CardsExample></CardsExample>
         </>
     );

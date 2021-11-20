@@ -113,7 +113,7 @@ const [isOpen, setIsOpen] = useState(false);
             }><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></CheckBtn>
                 <Navul isOpen={isOpen}>
                     <Navli>
-                        <Link to="/Api-front" style={{ "text-decoration": "none" }}>
+                        <Link to="/" style={{ "text-decoration": "none" }}>
                             <LogoImage src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" alt="" />
                         </Link>
                     </Navli>
@@ -150,7 +150,7 @@ const [isOpen, setIsOpen] = useState(false);
                 </Navul>
             </Nav>
             <Routes>
-                <Route exact path="/Api-front" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/collaborate" element={<Contribution />} />
                 <Route path="/documentation" element={<Documentation />} />
