@@ -119,7 +119,7 @@ const FormContact = () => {
         return errors;
     }
 
-    const BASEURL = "http://localhost:4000";
+    const BASEURL = "https://formula1s.herokuapp.com";
     const ITEMSURL = "/contact/email";
 
     const [messageSent, setMessageSent] = useState("");

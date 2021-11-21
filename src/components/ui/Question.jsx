@@ -47,6 +47,7 @@ const QuestionA = styled.a`
     font-size: 1.05rem ;
     text-decoration: #1f1f27;
     cursor: pointer;
+    display: block;
     `
 
 const Question = () => {
@@ -111,7 +112,7 @@ const Question = () => {
                 href="https://vtrev05.github.io/Api-front/#/collaborate">
                 <FormattedMessage
                     id="about.response.how.link"
-                    defaultMessage="http://localhost:3000/contribution"/>
+                    defaultMessage="https://vtrev05.github.io/Api-front/#/collaborate"/>
             </QuestionA>
             </QuestionContent>
             <QuestionH2 color="light">

@@ -8,7 +8,7 @@ import { URL_BASE } from '../utils/const';
 const Div = styled.div`
     width: 100%;
     height: 100%;
-    padding: 30px 0px;
+    padding: 0px 0px 30px;
     overflow: hidden;
 `;
 

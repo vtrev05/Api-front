@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from "react-intl";
-import { Link, Routes, Route, HashRouter } from "react-router-dom";
+import { Link, Routes, Route, HashRouter} from "react-router-dom";
 import Home from "../../pages/Home";
 import Documentation from "../../pages/Documentation";
 import Contact from "../../pages/Contact";
@@ -78,7 +78,6 @@ ${mobile} {
 const CheckBtn = styled.i`
 display: none;
 margin: 10px;
-padding-bottom: 40px;
 font-size: 40px;
 cursor: pointer;
 position: -webkit-sticky;

@@ -14,6 +14,7 @@ const InfoDocStyled = styled.div`
 
 const TitleStyled = styled.h2`
     color: whitesmoke;
+    border: 2px solid whitesmoke;
     padding: 5px 0;
     width: 200px;
     text-align: center;

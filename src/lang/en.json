@@ -26,7 +26,7 @@
     "docs.intro": "This documentation will help you get familiar with the resources of the Formula 1's API and show you how to make different queries, so that you can get the most out of it.",
 
     "docs.rest.title": "REST",
-    "docs.rest.base": "Base url: http://localhost:3000/",
+    "docs.rest.base": "Base url: https://formula1s.herokuapp.com",
     "docs.rest.text": "The base url contains information about all available API's resources. All requests are GET requests and go over https. All responses will return data in json.",
     "docs.rest.text2": "There are currently three available resources: drivers, teams and circuits",
     "docs.rest.text3": "Drivers: used to get all the drivers.",

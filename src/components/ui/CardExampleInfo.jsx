@@ -7,18 +7,16 @@ const CardStyled = styled.div`
     border-style: solid;
     border-radius: 5px;
     width: 100%;
-    height: 400px;
     background-color: #15151e;
-    padding: 30px 10px;
+    padding: 20px 10px;
 `;
 
 const DivImg = styled.div` 
-    width: 350px;
-    height: 200px;
+/*     min-width: 350px;
     display: flex;
     align-items: center;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; */
 `;
 
 const Div = styled.div`
@@ -26,22 +24,20 @@ const Div = styled.div`
 `;
 
 const ImgStyled = styled.img`
-    width: 100%;
+    max-width: 350px;
+    max-height: 169px;
     background-color: #fff;
     border-radius: 5px;
-    object-fit: cover;
-    object-position: center center;
 `;
 
 const TextStyled = styled.p`
-    padding: 10px;
     margin: 10px;
     text-align: center;
     color: whitesmoke;
     font-weight: 600;
     font-size: 1rem;
     display: block;
-    padding: 3px 10px;
+    padding: 13px;
     border: #e10600 5px double;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;

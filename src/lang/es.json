@@ -26,7 +26,7 @@
     "docs.intro": "Esta documentación te ayudará a la hora de familiarizarte con los recursos de nuestra API y te mostrará las diferentes peticiones que se pueden hacer.",
 
     "docs.rest.title": "REST",
-    "docs.rest.base": "Url base: http://localhost:3000/",
+    "docs.rest.base": "Url base: https://formula1s.herokuapp.com",
     "docs.rest.text": "La url base contiene información sobre todos los recursos de la API. Todas las peticiones son de tipo GET y son de tipo https. Las respuestas se devolverán en formato json.",
     "docs.rest.text2": "Actualmente hay disponibles tres tipos de recursos: pilotos, escuderías y circuitos",
     "docs.rest.text3": "Pilotos: sirve para obtener una lista de todos los pilotos.",
@@ -81,6 +81,9 @@
     
     "collaborate.title": "Si quieres contribuir con añadiendo contenido a nuestras colecciones, puedes hacerlo aquí:",
     "collaborate.select.userInfo": "Introduce tus datos de contacto.",
+    "collaborate.select.driver": "Pilotos",
+    "collaborate.select.team": "Equipos",
+    "collaborate.select.circuit": "Circuitos",
 
     "form.name": "Nombre",
     "form.nationality": "Nacionalidad",

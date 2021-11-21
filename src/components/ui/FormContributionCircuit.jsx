@@ -145,7 +145,7 @@ const FormContributionCircuit = (state) => {
 
   const handleSubmit = async (e) => {
     console.log(e)
-    const response = await axios.post(`http://localhost:4000/collaboration`,
+    const response = await axios.post(`https://formula1s.herokuapp.com/collaboration`,
       objectExample
     );
     console.log(response)

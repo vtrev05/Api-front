@@ -117,6 +117,7 @@ const ContentContainer = styled.div`
     flex-direction: column;
     justify-content:space-between;
     ${mobile} {
+        max-width: 80vw;
         width:90%;
         padding-inline:0 ;
     }
@@ -155,7 +156,6 @@ const BodyH1 = styled.h3`
     margin: 0;
     color: #e10600; 
 `;
-/* color: #000000; */
 const MenuA = styled.a`
     font-weight: 600;
     font-weight: ${props => props.title === 'true' ? 'bold' : '400'};
@@ -166,13 +166,14 @@ const MenuA = styled.a`
 `;
 const BodyP = styled.p`
     font-size: 20px;
+    line-height: 1.75;
     text-align: center;
-    margin: 10px;
+    width: 100%;
     `
 
 const DivBodyH1 = styled.div`
     justify-content:space-between;
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
